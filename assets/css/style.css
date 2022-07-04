@@ -42,6 +42,11 @@ p{
     font-weight: var(--font-Weight-light);
 }
 
+.grid-container{
+        margin: 100px auto;
+        padding: 20px;
+    }
+
 .card{
     border-radius: 7px;
     border: 1px solid transparent;
@@ -108,8 +113,9 @@ p{
 
 @media screen and (min-width:860px) {
     .grid-container{
-        height: 100vh;
-        margin: 50px;
+        max-width: 1440px;
+        margin: 100px auto;
+        padding: 20px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
