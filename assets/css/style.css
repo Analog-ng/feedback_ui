@@ -56,7 +56,7 @@ p{
 }
 
 .testimonial-1{
-    background-image: url(./assets/images/bg-pattern-quotation.svg);
+    background-image: url(../images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-position: top 5px right 100px;
     background-color: var(--Moderate-violet);
